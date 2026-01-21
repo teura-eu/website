@@ -1,0 +1,9 @@
+site_name: TEURA
+theme:
+  name: mkdocs
+nav:
+  - Home: index.md
+markdown_extensions:
+  - attr_list
+extra_css:
+  - assets/extra.css
