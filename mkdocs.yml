@@ -1,4 +1,5 @@
 site_name: TEURA
+site_url: https://www.teura.eu/
 theme:
   name: mkdocs
 nav:
