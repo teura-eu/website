@@ -1,6 +1,6 @@
 site_name: TEURA
 site_url: https://teura.eu/
-site_description: TEURA – software development, AI/ML engineering, PdM
+site_description: Your R&D partner from concept to deployment.
 site_author: Patryk Balazy
 theme:
   name: mkdocs
