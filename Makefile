@@ -21,6 +21,10 @@ serve:
 build:
 	uv run mkdocs build
 
+build-serve:
+	uv run mkdocs build
+	uv run mkdocs serve
+
 # Clean build artifacts
 clean:
 	rm -rf site/

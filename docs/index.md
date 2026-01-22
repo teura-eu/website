@@ -16,7 +16,14 @@
 
 ## Home {#home .visually-hidden}
 
-<img class="full-width-media" src="assets/image5.png" alt="TEURA overview" />
+<div class="hero-media">
+  <img class="full-width-media" src="assets/image5.png" alt="TEURA overview" />
+  <div class="hero-texts" aria-hidden="true">
+    <span class="hero-text hero-text--one">Technology solutions provider</span>
+    <span class="hero-text hero-text--two">From concept to end-product</span>
+    <span class="hero-text hero-text--three">Your strategic R&D ally</span>
+  </div>
+</div>
 
 
 ## Offer {#offer .visually-hidden}
@@ -52,8 +59,21 @@
   </article>
 </div>
 
+## Team {#team .visually-hidden}
+<section class="team-highlight" aria-label="Team overview">
+  <div class="team-highlight__inner">
+    <div class="team-highlight__content">
+      <h2>TEAM</h2>
+      <p>TEURA provides a comprehensive R&D service in the areas of Software Development, AI/ML Engineering, Cloud Management, and Predictive Maintenance. Our team is composed of PhD candidates specializing in automation, electronics, electrical engineering, and space technologies.
 
-## Team {#team}
+  By combining academic excellence with extensive industrial experience, we deliver end-to-end solutions. We bridge the gap between advanced research and production-grade engineering to drive operational efficiency and measurable business value for our partners.</p>
+    </div>
+    <div class="team-highlight__visual" aria-hidden="true">
+      <img src="assets/team.png" alt="" />
+    </div>
+  </div>
+</section>
+
 
 
 
@@ -66,11 +86,11 @@
         <div class="contact-band__value">UL. ZURAWIA 71</div>
         <div class="contact-band__value">15-540 BIALYSTOK</div>
       </div>
-      <div class="contact-band__block">
+      <!-- <div class="contact-band__block">
         <div class="contact-band__label">Phone</div>
         <div class="contact-band__value">+48 662 570 833</div>
         <div class="contact-band__value">+48 669 529 781</div>
-      </div>
+      </div> -->
       <div class="contact-band__block">
         <div class="contact-band__label">Email</div>
         <div class="contact-band__value">office@teura.eu</div>
@@ -92,10 +112,10 @@
   <div class="site-footer__inner">
     <div class="site-footer__content">
       <div class="site-footer__links">
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <!-- <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-      </div>
+      </div> -->
       <div class="site-footer__copy">
         © 2026 TEURA Sp. z o.o.
       </div>
