@@ -1,7 +1,7 @@
 <div class="site-header" role="banner">
   <div class="site-header__inner">
     <a class="site-header__logo" href="#home">
-      <img src="assets/logo.png" alt="TEURA logo" />
+      <img src="assets/logo4.png" alt="TEURA logo" />
     </a>
     <nav class="site-header__nav" aria-label="Primary">
       <a href="#home">Home</a>
@@ -17,7 +17,7 @@
 ## Home {#home .visually-hidden}
 
 <div class="hero-media">
-  <img class="full-width-media" src="assets/image5.png" alt="TEURA overview" />
+  <img class="full-width-media" src="assets/image7.png" alt="TEURA overview" />
   <div class="hero-texts" aria-hidden="true">
     <span class="hero-text hero-text--one">Technology solutions provider</span>
     <span class="hero-text hero-text--two">From concept to end-product</span>

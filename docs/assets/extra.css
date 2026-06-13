@@ -1,5 +1,13 @@
 :root {
-  --header-offset: 96px;
+  --brand-blue: #00a0e3;
+  --brand-blue-secondary: #02a6e0;
+  --brand-green: #0cd35c;
+  --brand-black: #000000;
+  --brand-white: #ffffff;
+  --brand-text: #202020;
+  --brand-muted: #666666;
+  --brand-surface: #f2fbfe;
+  --header-offset: 120px;
   --content-padding: 24px;
   --content-max-width: 1200px;
   --nav-offset: 200px;
@@ -51,9 +59,9 @@ body {
   margin: 0;
   left: auto;
   transform: none;
-  background: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
-  height: 70px;
+  background: var(--brand-white);
+  border-bottom: 2px solid var(--brand-blue);
+  height: 88px;
 }
 
 .site-header__inner {
@@ -77,11 +85,11 @@ body {
   background: transparent;
   border: 0;
   padding: 0;
-  transform: translateY(-20px);
+  transform: translateY(-25px);
 }
 
 .site-header__logo img {
-  height: 70px;
+  height: 87.5px;
   width: auto;
   max-width: none;
   display: block;
@@ -100,14 +108,14 @@ body {
 }
 
 .site-header__nav a {
-  color: #2f2e2e;
+  color: var(--brand-black);
   text-decoration: none;
   font-weight: 600;
 }
 
 .site-header__nav a:hover,
 .site-header__nav a:focus {
-  color: #0b5fff;
+  color: var(--brand-blue);
 }
 
 .site-header__spacer {
@@ -180,7 +188,7 @@ h3 {
 .hero-text {
   position: absolute;
   padding: 12px 18px;
-  color: #ffffff;
+  color: var(--brand-white);
   font-size: 36px;
   font-weight: 500;
   letter-spacing: 0.01em;
@@ -237,8 +245,8 @@ h3 {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: #1FB6B3;
-  color: #ffffff;
+  background: linear-gradient(135deg, var(--brand-blue), var(--brand-blue-secondary));
+  color: var(--brand-white);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -251,12 +259,12 @@ h3 {
   margin: 0;
   font-size: 24px;
   font-weight: 600;
-  color: #1FB6B3;
+  color: var(--brand-blue);
 }
 
 .offer-card p {
   margin: 0;
-  color: #4a4a4a;
+  color: var(--brand-text);
   text-align: justify;
 }
 
@@ -266,7 +274,9 @@ h3 {
   margin: 32px 0;
   margin-left: 0;
   margin-right: 0;
-  background: linear-gradient(180deg, #f4f4f4 0%, #dcdcdc 100%);
+  background: linear-gradient(135deg, var(--brand-white) 0%, var(--brand-surface) 100%);
+  border-top: 4px solid var(--brand-green);
+  border-bottom: 4px solid var(--brand-blue);
 }
 
 .team-highlight__inner {
@@ -281,7 +291,7 @@ h3 {
 
 .team-highlight__eyebrow {
   margin: 0 0 8px;
-  color: #8a8a8a;
+  color: var(--brand-muted);
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-size: 12px;
@@ -290,12 +300,12 @@ h3 {
 .team-highlight h2 {
   margin: 0 0 12px;
   font-size: 34px;
-  color: #1FB6B3;
+  color: var(--brand-blue);
 }
 
 .team-highlight__content p {
   margin: 0;
-  color: #3f3f3f;
+  color: var(--brand-text);
   text-align: justify;
 }
 
@@ -305,7 +315,7 @@ h3 {
   width: auto;
   justify-self: end;
   border-radius: 5px;
-  background: #ffffff;
+  background: var(--brand-white);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
   overflow: hidden;
   display: flex;
@@ -326,10 +336,10 @@ h3 {
   margin: 0;
   margin-left: 0;
   margin-right: 0;
-  background: #1f1f1f;
-  color: #f5f5f5;
-  border-top: 1px solid #1f1f1f;
-  border-bottom: 6px solid #00707c;
+  background: var(--brand-black);
+  color: var(--brand-white);
+  border-top: 1px solid var(--brand-black);
+  border-bottom: 6px solid var(--brand-green);
 }
 
 .contact-band__inner {
@@ -343,13 +353,13 @@ h3 {
   
   .contact-band__info {
     padding: 10px 8px;
-    background: #1f1f1f;
+    background: var(--brand-black);
   }
   
   .contact-band__info h2 {
     margin-top: 0;
     margin-bottom: 0px;
-    color: #00707c;
+    color: var(--brand-blue);
     font-size: 32px;
   }
   
@@ -361,7 +371,7 @@ h3 {
     font-size: 13px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #cfcfcf;
+    color: var(--brand-green);
     margin-bottom: 6px;
   }
   
@@ -393,9 +403,9 @@ h3 {
   margin-right: 0;
   left: auto;
   transform: none;
-  border-top: 1px solid #1f1f1f;
-  background: #303030;
-  color: #f0f0f0;
+  border-top: 1px solid var(--brand-black);
+  background: var(--brand-black);
+  color: var(--brand-white);
 }
 
 @media (min-width: 1200px) {
@@ -447,18 +457,18 @@ h3 {
 }
 
 .site-footer__links a {
-  color: #f0f0f0;
+  color: var(--brand-white);
   text-decoration: none;
   font-weight: 600;
 }
 
 .site-footer__links a:hover,
 .site-footer__links a:focus {
-  color: #7ab4ff;
+  color: var(--brand-green);
 }
 
 .site-footer__copy {
-  color: #c8c8c8;
+  color: var(--brand-white);
 }
 
 .footer,
