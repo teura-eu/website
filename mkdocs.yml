@@ -6,6 +6,18 @@ theme:
   name: mkdocs
 nav:
   - Home: index.md
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: pl
+          name: Polski
+          build: true
 markdown_extensions:
   - attr_list
 extra_css:

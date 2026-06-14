@@ -116,6 +116,7 @@ body > .container {
 
 .site-header__nav {
   display: flex;
+  align-items: center;
   gap: 24px;
   flex-wrap: wrap;
   font-size: 21px;
@@ -130,6 +131,31 @@ body > .container {
 .site-header__nav a:hover,
 .site-header__nav a:focus {
   color: var(--brand-blue);
+}
+
+.site-header__nav .site-header__lang {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.site-header__lang img,
+.col-md-9 .site-header__lang img {
+  display: block;
+  width: 28px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 2px;
+  background: transparent;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+.site-header__lang:hover img,
+.site-header__lang:focus img {
+  border-color: var(--brand-blue);
 }
 
 .site-header__spacer {
