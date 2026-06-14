@@ -17,7 +17,7 @@
 ## Home {#home .visually-hidden}
 
 <div class="hero-media">
-  <img class="full-width-media" src="assets/image7.png" alt="TEURA overview" />
+  <img class="full-width-media" src="assets/image6.png" alt="TEURA overview" />
   <div class="hero-texts" aria-hidden="true">
     <span class="hero-text hero-text--one">Technology solutions provider</span>
     <span class="hero-text hero-text--two">From concept to end-product</span>
