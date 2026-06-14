@@ -6,6 +6,7 @@
     <nav class="site-header__nav" aria-label="Primary">
       <a href="#home">Home</a>
       <a href="#offer">Offer</a>
+      <a href="#product">Product</a>
       <a href="#team">Team</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -58,6 +59,60 @@
     </div>
   </article>
 </div>
+
+## Product {#product .visually-hidden}
+<section class="product-highlight" aria-label="VibraLife product overview">
+  <div class="product-highlight__inner">
+    <h2>PRODUCT</h2>
+    <div class="product-showcase">
+      <div class="product-showcase__visual product-showcase__visual--sensor">
+        <span class="product-showcase__tag">Mount. Monitor. Stay Ahead.</span>
+        <img src="assets/product3.png" alt="VibraLife monitoring device" />
+      </div>
+      <div class="product-showcase__message">
+        <img src="assets/vibralife.png" alt="VibraLife logo" />
+        <h3>From Vibration Data to <span>Actionable AI Insights</span></h3>
+        <p><strong>VibraLife</strong> is an intelligent system for monitoring the condition of rotating machinery. A device mounted directly on the machine records vibration data and sends it to an analytical platform, where the results are processed and displayed in a clear dashboard.</p>
+      </div>
+      <div class="product-showcase__visual product-showcase__visual--dashboard">
+        <img src="assets/dashboard2.png" alt="VibraLife analytical dashboard" />
+      </div>
+    </div>
+
+    <div class="product-features">
+      <article class="product-feature">
+        <div class="product-feature__icon" aria-hidden="true">01</div>
+        <div>
+          <h3>Smart Sensor</h3>
+          <p>Industrial-grade sensing captures high-fidelity vibration data directly at the source.</p>
+        </div>
+      </article>
+      <article class="product-feature">
+        <div class="product-feature__icon" aria-hidden="true">02</div>
+        <div>
+          <h3>Live Dashboard</h3>
+          <p>Real-time analytics and clear visualizations enable instant condition monitoring.</p>
+        </div>
+      </article>
+      <article class="product-feature">
+        <div class="product-feature__icon" aria-hidden="true">AI</div>
+        <div>
+          <h3>AI Report</h3>
+          <p>AI-generated diagnostics provide risk levels and actionable maintenance recommendations.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="product-benefit">
+      <strong>Detect early. Act fast. Reduce downtime.</strong>
+      <span>Smarter maintenance. Stronger operations. Better results.</span>
+    </div>
+
+    <div class="product-highlight__content">
+      <p>The system detects abnormalities, identifies potential faults, and generates an AI report containing a diagnosis, risk level, and maintenance recommendations. This helps reduce unplanned downtime and enables earlier response to developing failures.</p>
+    </div>
+  </div>
+</section>
 
 ## Team {#team .visually-hidden}
 <section class="team-highlight" aria-label="Team overview">
