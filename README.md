@@ -15,15 +15,9 @@ Static website for TEURA sp. z o.o. built with MkDocs and Material theme.
 ```
 .
 ├── docs/
-│   ├── index.md     # Polish content (default, served at root /)
-│   ├── offer.md     # Polish pages
-│   ├── team.md
-│   ├── contact.md
-│   ├── en/          # English translations (served at /en/)
-│   │   ├── index.md
-│   │   ├── offer.md
-│   │   ├── team.md
-│   │   └── contact.md
+│   ├── index.md     # English content (default, served at root /)
+│   ├── pl/          # Polish translation (served at /pl/)
+│   │   └── index.md
 │   └── assets/      # Static assets (images, logos, etc.)
 ├── mkdocs.yml       # MkDocs configuration
 ├── pyproject.toml   # Python dependencies (uv source of truth)
@@ -113,20 +107,15 @@ make clean
 
 The website supports two languages:
 
-- **Polish (pl)**: Default language, served at root `/`
-- **English (en)**: Translation, served at `/en/`
+- **English (en)**: Default language, served at root `/`
+- **Polish (pl)**: Translation, served at `/pl/`
 
 Content pages are located in:
-- `docs/` - Polish content (default language, served at root)
-- `docs/en/` - English translations (served at /en/)
+- `docs/` - English content (default language, served at root)
+- `docs/pl/` - Polish translation (served at `/pl/`)
 
 Pages:
 - `index.md` - Home page
-- `offer.md` - Offer/Services page
-- `team.md` - Team page
-- `contact.md` - Contact page
-- `location.md` - Location page
-- `privacy.md` - Privacy Policy page
 
 ## Deployment
 
@@ -175,7 +164,7 @@ Main configuration is in `mkdocs.yml`:
 ## Notes
 
 - All configuration and comments are in English
-- Content is in Polish (default) with English translations
+- Content is in English (default) with a Polish translation
 - No external tracking scripts included by default
 - No backend required - pure static site
 - Legal placeholders in footer and privacy policy require legal review

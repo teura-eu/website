@@ -4,6 +4,9 @@
       <img src="assets/logo4.png" alt="TEURA logo" />
     </a>
     <nav class="site-header__nav" aria-label="Primary">
+      <a href="/pl/" class="site-header__lang" hreflang="pl" aria-label="Polski" title="Polski">
+        <img src="assets/flags/pl.svg" alt="" />
+      </a>
       <a href="#home">Home</a>
       <a href="#offer">Offer</a>
       <a href="#product">Product</a>
@@ -71,7 +74,7 @@
       </div>
       <div class="product-showcase__message">
         <img src="assets/vibralife.png" alt="VibraLife logo" />
-        <h3>From Vibration Data to <span>Actionable AI Insights</span></h3>
+        <h3>From Vibration Data to <span>AI Reports</span></h3>
         <p><strong>VibraLife</strong> is an intelligent system for monitoring the condition of rotating machinery. A device mounted directly on the machine records vibration data and sends it to an analytical platform, where the results are processed and displayed in a clear dashboard.</p>
       </div>
       <div class="product-showcase__visual product-showcase__visual--dashboard">
