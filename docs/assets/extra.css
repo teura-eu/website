@@ -175,7 +175,7 @@ h3 {
 .col-md-9 img.full-width-media {
   display: block;
   width: 100%;
-  max-width: 1672px;
+  max-width: min(80vw, 1338px);
   height: auto;
   margin: 0;
   margin-inline: auto;
